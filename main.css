@@ -1,10 +1,9 @@
 * {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 .navbar {
   background-color: #333;
   overflow: hidden;
-  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 5px;
@@ -22,57 +21,34 @@ html, body {
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,1);
-  overflow: hidden;
+
 }
 .v6_6 {
-  background: no-repeat center center;
-  background-size: cover;
-  opacity: 1;
-  overflow: hidden;
+
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
 }
-.v6_8 {
-  display: flex;
-  flex-direction: column;
-  /* располагать элементы по левую сторону, а не растягивать их по умолчанию */
-  align-items: flex-start;
-  opacity: 1;
-  overflow: hidden;
-}
 .v4_3 {
-  width: 136px;
   color: rgba(255,255,255,1);
 
   text-align: center;
 }
-.v6_7 {
-  width: 266px;
-  height: 29px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  overflow: hidden;
+.v6_8{
+  width: 80%;
 }
 .v4_4 {
   font-family: Montserrat, serif;
+  font-size: 30px;
   border: 0;
-  box-sizing: border-box; /** позволит добавить padding */
+  /** Ð¿Ð¾Ð·Ð²Ð¾Ð»Ð¸Ñ‚ Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ padding */
   outline: 0;
   padding: 10px;
-  width: 266px;
-  height: 29px;
+  height: 100%;
+  width: 100%;
   background: rgba(255,255,255,1);
   border-radius: 1488px;
-  overflow: hidden;
-}
-.v4_5 {
-  width: 262px;
-  height: 25px;
-  background: rgba(0,0,0,1);
-  border-radius: 1488px;
-  overflow: hidden;
+
 }
